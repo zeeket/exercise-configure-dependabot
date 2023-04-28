@@ -2,6 +2,6 @@
   "name": "exercise-configure-dependabot",
   "packageManager": "yarn@3.4.1",
   "dependencies": {
-    "markdownlint-cli2": "^0.7.0"
+    "markdownlint-cli2": "^0.7.1"
   }
 }
