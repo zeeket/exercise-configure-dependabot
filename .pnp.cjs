@@ -28,7 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["markdownlint-cli2", "npm:0.7.0"]\
+            ["markdownlint-cli2", "npm:0.8.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -107,7 +107,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["exercise-configure-dependabot", "workspace:."],\
-            ["markdownlint-cli2", "npm:0.7.0"]\
+            ["markdownlint-cli2", "npm:0.8.1"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -232,27 +232,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["markdownlint", [\
-        ["npm:0.28.1", {\
-          "packageLocation": "./.yarn/cache/markdownlint-npm-0.28.1-7ecbfb2613-d606e3f069.zip/node_modules/markdownlint/",\
+        ["npm:0.29.0", {\
+          "packageLocation": "./.yarn/cache/markdownlint-npm-0.29.0-a8b6b7a8a5-5785f5173f.zip/node_modules/markdownlint/",\
           "packageDependencies": [\
-            ["markdownlint", "npm:0.28.1"],\
+            ["markdownlint", "npm:0.29.0"],\
             ["markdown-it", "npm:13.0.1"],\
-            ["markdownlint-micromark", "npm:0.1.2"]\
+            ["markdownlint-micromark", "npm:0.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
       ]],\
       ["markdownlint-cli2", [\
-        ["npm:0.7.0", {\
-          "packageLocation": "./.yarn/cache/markdownlint-cli2-npm-0.7.0-1f6fc81bf4-be0d937be2.zip/node_modules/markdownlint-cli2/",\
+        ["npm:0.8.1", {\
+          "packageLocation": "./.yarn/cache/markdownlint-cli2-npm-0.8.1-0fde43c12e-38464d73d9.zip/node_modules/markdownlint-cli2/",\
           "packageDependencies": [\
-            ["markdownlint-cli2", "npm:0.7.0"],\
+            ["markdownlint-cli2", "npm:0.8.1"],\
             ["globby", "npm:13.1.4"],\
-            ["markdownlint", "npm:0.28.1"],\
-            ["markdownlint-cli2-formatter-default", "virtual:1f6fc81bf4ac687f08bdf36dffc33185022266608aac1097ed50e17a465925c5350b01f08788e8b76d20e072928bbfb592fb1daf93af858c453ec4bd914711bd#npm:0.0.4"],\
+            ["markdownlint", "npm:0.29.0"],\
+            ["markdownlint-cli2-formatter-default", "virtual:0fde43c12e15fd589ae9c5f8f61ffe2de7efa9331044bf2187edf505047e180fe413a714fbaef7b92ed5b76ed6549b9a83b30a64346cb567e3c376348fe8ee58#npm:0.0.4"],\
             ["micromatch", "npm:4.0.5"],\
             ["strip-json-comments", "npm:5.0.0"],\
-            ["yaml", "npm:2.2.1"]\
+            ["yaml", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -265,12 +265,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:1f6fc81bf4ac687f08bdf36dffc33185022266608aac1097ed50e17a465925c5350b01f08788e8b76d20e072928bbfb592fb1daf93af858c453ec4bd914711bd#npm:0.0.4", {\
-          "packageLocation": "./.yarn/__virtual__/markdownlint-cli2-formatter-default-virtual-55c3f8706d/0/cache/markdownlint-cli2-formatter-default-npm-0.0.4-4d22ebb64c-533971d6b0.zip/node_modules/markdownlint-cli2-formatter-default/",\
+        ["virtual:0fde43c12e15fd589ae9c5f8f61ffe2de7efa9331044bf2187edf505047e180fe413a714fbaef7b92ed5b76ed6549b9a83b30a64346cb567e3c376348fe8ee58#npm:0.0.4", {\
+          "packageLocation": "./.yarn/__virtual__/markdownlint-cli2-formatter-default-virtual-3a93d3bd11/0/cache/markdownlint-cli2-formatter-default-npm-0.0.4-4d22ebb64c-533971d6b0.zip/node_modules/markdownlint-cli2-formatter-default/",\
           "packageDependencies": [\
-            ["markdownlint-cli2-formatter-default", "virtual:1f6fc81bf4ac687f08bdf36dffc33185022266608aac1097ed50e17a465925c5350b01f08788e8b76d20e072928bbfb592fb1daf93af858c453ec4bd914711bd#npm:0.0.4"],\
+            ["markdownlint-cli2-formatter-default", "virtual:0fde43c12e15fd589ae9c5f8f61ffe2de7efa9331044bf2187edf505047e180fe413a714fbaef7b92ed5b76ed6549b9a83b30a64346cb567e3c376348fe8ee58#npm:0.0.4"],\
             ["@types/markdownlint-cli2", null],\
-            ["markdownlint-cli2", "npm:0.7.0"]\
+            ["markdownlint-cli2", "npm:0.8.1"]\
           ],\
           "packagePeers": [\
             "@types/markdownlint-cli2",\
@@ -280,10 +280,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["markdownlint-micromark", [\
-        ["npm:0.1.2", {\
-          "packageLocation": "./.yarn/cache/markdownlint-micromark-npm-0.1.2-39ca0d8dd1-f1ae330db8.zip/node_modules/markdownlint-micromark/",\
+        ["npm:0.1.5", {\
+          "packageLocation": "./.yarn/cache/markdownlint-micromark-npm-0.1.5-2e2c0b1267-fc69c340c3.zip/node_modules/markdownlint-micromark/",\
           "packageDependencies": [\
-            ["markdownlint-micromark", "npm:0.1.2"]\
+            ["markdownlint-micromark", "npm:0.1.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -401,10 +401,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["yaml", [\
-        ["npm:2.2.1", {\
-          "packageLocation": "./.yarn/cache/yaml-npm-2.2.1-b7f7f5e84d-84f68cbe46.zip/node_modules/yaml/",\
+        ["npm:2.3.1", {\
+          "packageLocation": "./.yarn/cache/yaml-npm-2.3.1-743f5688d1-2c7bc9a7cd.zip/node_modules/yaml/",\
           "packageDependencies": [\
-            ["yaml", "npm:2.2.1"]\
+            ["yaml", "npm:2.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\
